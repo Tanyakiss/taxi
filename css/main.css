@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+body{
+    font-family:"OpenSans", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.menu{
+    background-color: #2e3e4f;
+    display: inline;
+    float: left;
+}
+
+.menu ul{
+    padding-left: 0px;  
+    text-align: left;
+
+}
+
+.menu ul li{
+    list-style-type: none;
+    padding: 10px 24px 10px 24px;
+}
+
+.menu ul li:hover{
+    background-color: #42566a;    
+}
+
+.menu-item{
+    font-size: 18px;
+    color: #ffffff;
+    font-family:"OpenSans";
+}
+
+.menu ul li img{
+    padding: 5px 10px 0px 5px;
+}
+
+.logo-grp{
+     padding: 24px 24px 0px 24px;
+}
+
+span.logo{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 30px;
+    color:#ffffff;
+    padding-bottom: 15px;
+    padding-left:10px;
+    font-family:"OpenSans";
+}
+
+.rates {
+    background-color: #ffffff;
+    border:10px solid #2e3e4f;
+}
+
+.rates span{
+    padding-left:55px;
+    padding-top:10px;
+}
+
+span.rates-item{
+    font-size: 18px;
+    font-weight: 700;
+    padding-left:0px;
+}
+
+p.rates-item{
+    padding-left:60px;
+}
+
+div.rates ul li:hover{
+    background-color: #ffffff;    
+}
+
+.header{
+    width: 100%;
+}
+
+.time-date{
+    display: inline-block;
+    float:left;
+    width: 12,5%;
+    margin: 10px 30px 20px 30px;
+}
+
+.time-date p{
+    line-height: 0.6;
+}
+.quantity{
+    display:inline-block;
+    float:left;
+    width: 12,5%;
+    margin: 0px 30px 20px 30px;
+}
+
+.quantity-grp{
+    display:inline-block;
+    float:left;
+    margin-top: 10px; 
+}
+
+.quantity-grp p{
+    line-height: 0.6;
+}
+.user{
+    display: inline-block;
+    float: right;
+}
+
+.three{
+    color:#00abf8;
+    font-size: 18px;
+}
+
+.four{
+    font-size: 48px;
+    margin-top: none;
+    color:#000000;
+}
+
+.quantity p{
+    display: inline-block;
+    line-height: 0.6;
+}
+
